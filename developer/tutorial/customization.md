@@ -12,7 +12,9 @@ All the files created/modifed in this tutorial are in the [Bee's Knees](https://
 
 ### Background
 
-#### Pros and Cons of creating a custom plugin
+#### Pros and Cons of creating a custom plugin vs forking core
+
+##### Forking Core ⚠️
 
 When you start to work with Reaction Commerce (and with many other open-source eCommerce packages) you have two paths to go down. The first is to simple fork the package and make the changes you want. The advantages of this are:
 
@@ -23,6 +25,7 @@ However the disadvantage of this approach is that upgrading to newer releases of
 
 It's possible that you believe that you never will need to upgrade. RC gives you what you need right now and you will build the rest. Or the project you are working on may not have the lifespan to make upgrading a concern (maybe it's just a proof of concept or an MVP). Or it's possible that the changes you need to make are so small that it's not worth creating a plugin just to modify a couple of templates. Those are legitimate reasons to not bother with the extra overhead of creating a plugin. If that's the approach you take however this tutorial is not for you, as we will focus on creating a custom plugin.
 
+##### Creating a Plugin
 The advantages of creating a plugin are:
 
 1. All of your changes are in one place and it's easy to see what's been modified and what is "stock". This also allows you to easily segment out what is "private" from what can be public or open-source.
